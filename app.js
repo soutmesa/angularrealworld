@@ -4,11 +4,7 @@ angular.module('myFirstApp', ['ngRoute'])
 		templateUrl: 'views/about.html'
 	}).when('/contact', {
 		templateUrl: 'views/contact.html'
-	}).otherwise({templateUrl: 'index.html'})
-	// $locationProvider.html5Mode({
-	// 	enabled: true,
- //  		requireBase: false
-	// });
+	}).otherwise({templateUrl: '404.html'})
 }])
 .factory('personService', function(){
 	var person = {};
