@@ -1,0 +1,37 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700');
+/* === fontawesome === */
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+@import url('overwrite.css');
+@import url('animate.css');
+/*  ============================ Responsive Layout ============================= */
+@media (max-width: 760px){
+	.logo {
+		position: fixed;
+	    top: 2%;
+	    left: 45%;
+	    margin-left: 2px;	
+	    width: 25px;
+	    min-height: 0 auto;
+	}
+}
+
+/*  ============================ Custom Layout ============================= */
+.logo {
+	margin-top: -6px;
+}
+#about {
+	margin-top: 20px;
+}
+
+/*  ========================================================= */
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size:14px;
+	font-weight:300;
+	line-height:1.6em;
+	color:#000;
+	background-color:#fff;
+}
+
